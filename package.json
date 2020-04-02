@@ -1,0 +1,11 @@
+{
+  "name": "GraphQL-Hackernews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lkmarcum/GraphQL-Hackernews.git",
+  "author": "lkmarcum <50113705+lkmarcum@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
