@@ -1,0 +1,11 @@
+# HTTP endpoint for Prisma API
+#endpoint: ""endpoint: https://us1.prisma.sh/larry-marcum-e4b1db/GraphQL-Hackernews/dev
+
+
+# Points to the datamodel file
+datamodel: datamodel.prisma
+
+# Specifies language/location for Prisma client
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
